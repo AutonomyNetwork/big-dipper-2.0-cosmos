@@ -3,6 +3,7 @@ import {
   darkTemplate,
   deuteranopiaTemplate,
   tritanopiaTemplate,
+  autonomyTemplate,
 } from '@styles';
 import {
   Theme,
@@ -13,6 +14,7 @@ import {
 // ================================
 
 export const THEME_LIST: Theme[] = [
+  'autonomy',
   'light',
   'dark',
   'deuteranopia',
@@ -24,6 +26,7 @@ export const THEME_DICTIONARY = {
   dark: darkTemplate,
   deuteranopia: deuteranopiaTemplate,
   tritanopia: tritanopiaTemplate,
+  autonomy: autonomyTemplate,
 };
 
 export const getThemeTemplate = (theme: Theme) => {

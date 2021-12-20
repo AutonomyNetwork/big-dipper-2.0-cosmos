@@ -5,6 +5,7 @@ import { darkThemeOverride } from './dark';
 import { lightThemeOverride } from './light';
 import { deuteranopiaThemeOverride } from './deuteranopia';
 import { tritanopiaThemeOverride } from './tritanopia';
+import  { autonomyThemeOverride} from './autonomy';
 
 /** Common themes that don't change across light and dark theme */
 export const common = {
@@ -193,7 +194,7 @@ export const lightTemplate:ThemeOptions = R.mergeDeepLeft(lightThemeOverride, co
 export const darkTemplate:ThemeOptions = R.mergeDeepLeft(darkThemeOverride, common);
 export const deuteranopiaTemplate:ThemeOptions = R.mergeDeepLeft(deuteranopiaThemeOverride, common);
 export const tritanopiaTemplate:ThemeOptions = R.mergeDeepLeft(tritanopiaThemeOverride, common);
-
+export const autonomyTemplate:ThemeOptions = R.mergeDeepLeft(autonomyThemeOverride, common);
 // export const lightTheme = createMuiTheme(lightTemplate);
 // export const darkTheme = createMuiTheme(darkTemplate);
 // export const deuteranopiaTheme = createMuiTheme(deuteranopiaTemplate);

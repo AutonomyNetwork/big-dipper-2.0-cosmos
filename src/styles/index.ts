@@ -6,6 +6,7 @@ import {
   // lightTheme,
   // darkTheme,
   // deuteranopiaTheme,
+  autonomyTemplate,
 } from './theme';
 
 export {
@@ -13,6 +14,7 @@ export {
   darkTemplate,
   deuteranopiaTemplate,
   tritanopiaTemplate,
+  autonomyTemplate,
   // lightTheme,
   // darkTheme,
   // deuteranopiaTheme,

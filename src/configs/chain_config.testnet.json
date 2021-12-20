@@ -1,23 +1,23 @@
 {
-  "title": "Desmos Block Explorer",
-  "network": "morpheus-apollo-2",
-  "icon": "https://raw.githubusercontent.com/forbole/big-dipper-assets/master/desmos/icon.svg?sanitize=true",
+  "title": "Autonomy Block Explorer",
+  "network": "autonomy",
+  "icon": "https://github.com/AutonomyNetwork/docs/blob/main/assets/images/icon.png?raw=true",
   "logo": {
-    "default": "https://raw.githubusercontent.com/forbole/big-dipper-assets/master/desmos/logo.svg?sanitize=true"
+    "default": "https://raw.githubusercontent.com/AutonomyNetwork/docs/main/assets/images/Auto-Logo_White.png"
   },
   "prefix": {
-    "consensus": "desmosvalcons",
-    "validator": "desmosvaloper",
-    "account": "desmos"
+    "consensus": "autonomyvalcons",
+    "validator": "autonomyvaloper",
+    "account": "autonomy"
   },
   "genesis": {
     "time": "2021-07-13T08:00:00",
     "height": 1
   },
-  "primaryTokenUnit": "udaric",
+  "primaryTokenUnit": "uaut",
   "tokenUnits": {
-    "udaric": {
-      "display": "daric",
+    "uaut": {
+      "display": "aut",
       "exponent": 6
     }
   },

@@ -37,6 +37,7 @@
   "light": "Light",
   "deuteranopia": "Deuteranopia",
   "tritanopia": "Tritanopia",
+  "autonomy" : "Autonomy",
   "achromatopsia": "Achromatopsia",
   "nothingToShow": "Nothing to show",
   "notFound": "Not Found",
