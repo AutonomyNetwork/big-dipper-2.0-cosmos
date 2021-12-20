@@ -31,10 +31,10 @@ export const autonomyThemeOverride = {
       contrastText: '#000000',
     },
     background: {
-      default: backgroundDefault,
+      default:  '#F8F8F8',  //backgroundDefault,
       paper: surfaceOne,
     },
-    divider: '#E8E8E8',
+    divider:  '#E8E8E8',
     text: {
       primary: '#000000',
       secondary: '#414141',

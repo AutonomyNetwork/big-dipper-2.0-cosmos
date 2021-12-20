@@ -3,7 +3,7 @@
   "network": "autonomy",
   "icon": "https://github.com/AutonomyNetwork/docs/blob/main/assets/images/icon.png?raw=true",
   "logo": {
-    "default": "https://raw.githubusercontent.com/AutonomyNetwork/docs/main/assets/images/Auto-Logo_White.png"
+    "default": "https://raw.githubusercontent.com/AutonomyNetwork/docs/main/assets/images/Auto%20Logo_Color.svg"
   },
   "prefix": {
     "consensus": "autonomyvalcons",
