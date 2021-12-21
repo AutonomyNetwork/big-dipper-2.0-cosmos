@@ -33,7 +33,7 @@ export const getThemeTemplate = (theme: Theme) => {
   if (THEME_DICTIONARY[theme]) {
     return THEME_DICTIONARY[theme];
   }
-  return lightTemplate;
+  return autonomyTemplate;
 };
 
 export const DATE_LIST = [
