@@ -2,7 +2,7 @@ import { atom } from 'recoil';
 import { AtomState } from './types';
 
 const initialState: AtomState = {
-  theme: 'light',
+  theme: 'autonomy',
   dateFormat: 'locale',
   txListFormat: 'compact',
 };
